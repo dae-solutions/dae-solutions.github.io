@@ -1,5 +1,4 @@
-
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
@@ -14,31 +13,31 @@
   <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/fullpage.css" />
   <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/examples.css" />
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-  <script type="text/javascript" src="{{ site.baseurl }}/fullpage.js"></script>
+  
   <script type="text/javascript">
         //using document ready...
         $(document).ready(function(){
 
             //initialising fullpage.js in the jQuery way
             $('#fullpage').fullpage({
-                sectionsColor: ['#ff5f45', '#0798ec', '#fc6c7c', '#fec401'],
-                navigation: true,
-                slidesNavigation: true,
+              sectionsColor: ['#ff5f45', '#0798ec', '#fc6c7c', '#fec401'],
+              navigation: true,
+              slidesNavigation: true,
             });
 
             // calling fullpage.js methods using jQuery
             $('#moveSectionUp').click(function(e){
-                e.preventDefault();
-                $.fn.fullpage.moveSectionUp();
+              e.preventDefault();
+              $.fn.fullpage.moveSectionUp();
             });
 
             $('#moveSectionDown').click(function(e){
-                e.preventDefault();
-                $.fn.fullpage.moveSectionDown();
+              e.preventDefault();
+              $.fn.fullpage.moveSectionDown();
             });
-        });
-    </script>
-  <style>
+          });
+        </script>
+        <style>
 
   /* Style for our header texts
   * --------------------------------------- */
@@ -63,26 +62,26 @@
   #infoMenu li a {
     color: #fff;
   }
-    
-      #actions{
-        position:fixed;
-        top: 73px;
-        left: 30px;
-        z-index: 99999;
-    }
-    #actions a{
-        background: rgba(0,0,0,0.8);
-        padding: 7px;
-        margin: 2px;
-        color: #ccc;
-        display: inline-block;
-    }
-    #actions a:hover{
-        color: #fff;
-        background: #81A140;
-    }  
-    
-  </style>
+
+  #actions{
+    position:fixed;
+    top: 73px;
+    left: 30px;
+    z-index: 99999;
+  }
+  #actions a{
+    background: rgba(0,0,0,0.8);
+    padding: 7px;
+    margin: 2px;
+    color: #ccc;
+    display: inline-block;
+  }
+  #actions a:hover{
+    color: #fff;
+    background: #81A140;
+  }  
+
+</style>
 
   <!--[if IE]>
     <script type="text/javascript">
@@ -92,82 +91,82 @@
 </head>
 <body>
 
-<div id="fullpage">
-  <div class="section " id="section0">
-    <div class="intro">
-      <img src="{{ site.baseurl }}/images/01-100.jpg" style="height: 100%;"/>
-    </div>
-  </div>
-  <div class="section" id="section1">
-      <div class="slide" id="slide1">
+  <div id="fullpage">
+    <div class="section " id="section0">
       <div class="intro">
-        <img src="{{ site.baseurl }}/images/02-100.jpg" style="height: 100%;"/>
+        <img src="{{ site.baseurl }}/images/01-100.jpg"/>
+      </div>
+    </div>
+    <div class="section" id="section1">
+      <div class="slide" id="slide1">
+        <div class="intro">
+          <img src="{{ site.baseurl }}/images/02-100.jpg"/>
+        </div>
+      </div>
+    </div>
+
+    <div class="section" id="section2">
+      <div class="intro">
+        <img src="{{ site.baseurl }}/images/03-100.jpg"/>
+      </div>
+    </div>
+
+    <div class="section" id="section3">
+      <div class="intro">
+        <img src="{{ site.baseurl }}/images/04-100.jpg"/>
+      </div>
+    </div>
+
+    <div class="section" id="section4">
+      <div class="intro">
+        <img src="{{ site.baseurl }}/images/05-100.jpg"/>
+      </div>
+    </div>
+
+    <div class="section" id="section5">
+      <div class="intro">
+        <img src="{{ site.baseurl }}/images/06-100.jpg"/>
+      </div>
+    </div>
+
+    <div class="section" id="section6">
+      <div class="intro">
+        <img src="{{ site.baseurl }}/images/07-100.jpg"/>
+      </div>
+    </div>
+
+    <div class="section" id="section7">
+      <div class="intro">
+        <img src="{{ site.baseurl }}/images/08-100.jpg"/>
+      </div>
+    </div>
+
+    <div class="section" id="section8">
+      <div class="intro">
+        <img src="{{ site.baseurl }}/images/09-100.jpg"/>
+      </div>
+    </div>
+
+    <div class="section" id="section9">
+      <div class="intro">
+        <img src="{{ site.baseurl }}/images/10-100.jpg"/>
+      </div>
+    </div>
+
+    <div class="section" id="section10">
+      <div class="intro">
+        <img src="{{ site.baseurl }}/images/11-100.jpg"/>
+      </div>
+    </div>
+
+    <div class="section" id="section11">
+      <div class="intro">
+        <img src="{{ site.baseurl }}/images/12-100.jpg"/>
       </div>
     </div>
   </div>
 
-  <div class="section" id="section2">
-    <div class="intro">
-      <img src="{{ site.baseurl }}/images/03-100.jpg" style="height: 100%;"/>
-    </div>
-  </div>
-
-    <div class="section" id="section3">
-    <div class="intro">
-      <img src="{{ site.baseurl }}/images/04-100.jpg" style="height: 100%;"/>
-    </div>
-  </div>
-
-    <div class="section" id="section4">
-    <div class="intro">
-      <img src="{{ site.baseurl }}/images/05-100.jpg" style="height: 100%;"/>
-    </div>
-  </div>
-
-      <div class="section" id="section5">
-    <div class="intro">
-      <img src="{{ site.baseurl }}/images/06-100.jpg" style="height: 100%;"/>
-    </div>
-  </div>
-
-      <div class="section" id="section6">
-    <div class="intro">
-      <img src="{{ site.baseurl }}/images/07-100.jpg" style="height: 100%;"/>
-    </div>
-  </div>
-
-      <div class="section" id="section7">
-    <div class="intro">
-      <img src="{{ site.baseurl }}/images/08-100.jpg" style="height: 100%;"/>
-    </div>
-  </div>
-
-        <div class="section" id="section8">
-    <div class="intro">
-      <img src="{{ site.baseurl }}/images/09-100.jpg" style="height: 100%;"/>
-    </div>
-  </div>
-
-        <div class="section" id="section9">
-    <div class="intro">
-      <img src="{{ site.baseurl }}/images/10-100.jpg" style="height: 100%;"/>
-    </div>
-  </div>
-
-        <div class="section" id="section10">
-    <div class="intro">
-      <img src="{{ site.baseurl }}/images/11-100.jpg" style="height: 100%;"/>
-    </div>
-  </div>
-
-        <div class="section" id="section11">
-    <div class="intro">
-      <img src="{{ site.baseurl }}/images/12-100.jpg" style="height: 100%;"/>
-    </div>
-  </div>
-</div>
-
-<ul id="menu">
+  <ul id="menu">
     <li data-menuanchor="section1" class="active"><a href="#section1">１</a></li>
     <li data-menuanchor="section2"><a href="#section2">２</a></li>
     <li data-menuanchor="section3"><a href="#section3">3</a></li>
@@ -181,21 +180,21 @@
     <li data-menuanchor="section11"><a href="#section11">10</a></li>
     <li data-menuanchor="section12"><a href="#section12">11</a></li>
 
-</ul>
+  </ul>
 
 
-<script type="text/javascript" src="{{ site.baseurl }}/fullpage.js"></script>
-<script type="text/javascript" src="{{ site.baseurl }}/examples.js"></script>
+  <script type="text/javascript" src="{{ site.baseurl }}/fullpage.js"></script>
+  <script type="text/javascript" src="{{ site.baseurl }}/examples.js"></script>
 
-<script type="text/javascript">
+  <script type="text/javascript">
     var myFullpage = new fullpage('#fullpage', {
-        anchors: ['firstPage', 'secondPage', '3rdPage'],
-        sectionsColor: ['#C63D0F', '#1BBC9B', '#7E8F7C'],
-        responsiveHeight: 600,
-        afterResponsive: function(isResponsive){
+      anchors: ['firstPage', 'secondPage', '3rdPage'],
+      sectionsColor: ['#C63D0F', '#1BBC9B', '#7E8F7C'],
+      responsiveHeight: 600,
+      afterResponsive: function(isResponsive){
 
-        }
+      }
     });
-</script>
+  </script>
 </body>
 </html>
