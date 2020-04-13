@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
@@ -83,11 +83,6 @@
 
 </style>
 
-  <!--[if IE]>
-    <script type="text/javascript">
-       var console = { log: function() {} };
-    </script>
-  <![endif]-->
 </head>
 <body>
 
@@ -196,5 +191,147 @@
       }
     });
   </script>
+</body>
+</html>
+ -->
+
+ <!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Responsive Height - fullPage.js</title>
+  <meta name="author" content="Alvaro Trigo Lopez" />
+  <meta name="description" content="fullPage full-screen navigation and sections control menu." />
+  <meta name="keywords"  content="fullpage,jquery,demo,screen,fullscreen,navigation,control arrows, dots" />
+  <meta name="Resource-type" content="Document" />
+
+
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/fullpage.css" />
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/examples.css" />
+  <style>
+
+  /* Style for our header texts
+  * --------------------------------------- */
+  h1{
+    font-size: 5em;
+    font-family: arial,helvetica;
+    color: #fff;
+    margin:0;
+  }
+  .intro p{
+    color: #fff;
+  }
+
+  /* Centered texts in each section
+  * --------------------------------------- */
+  .section{
+    text-align:center;
+  }
+
+  /* Bottom menu
+  * --------------------------------------- */
+  #infoMenu li a {
+    color: #fff;
+  }
+  </style>
+
+  <!--[if IE]>
+    <script type="text/javascript">
+       var console = { log: function() {} };
+    </script>
+  <![endif]-->
+</head>
+<body>
+
+  <div id="fullpage">
+    <div class="section " id="section0">
+      <div class="intro">
+        <img src="{{ site.baseurl }}/images/01-100.jpg"/>
+      </div>
+    </div>
+    <div class="section" id="section1">
+      <div class="slide" id="slide1">
+        <div class="intro">
+          <img src="{{ site.baseurl }}/images/02-100.jpg"/>
+        </div>
+      </div>
+    </div>
+
+    <div class="section" id="section2">
+      <div class="intro">
+        <img src="{{ site.baseurl }}/images/03-100.jpg"/>
+      </div>
+    </div>
+
+    <div class="section" id="section3">
+      <div class="intro">
+        <img src="{{ site.baseurl }}/images/04-100.jpg"/>
+      </div>
+    </div>
+
+    <div class="section" id="section4">
+      <div class="intro">
+        <img src="{{ site.baseurl }}/images/05-100.jpg"/>
+      </div>
+    </div>
+
+    <div class="section" id="section5">
+      <div class="intro">
+        <img src="{{ site.baseurl }}/images/06-100.jpg"/>
+      </div>
+    </div>
+
+    <div class="section" id="section6">
+      <div class="intro">
+        <img src="{{ site.baseurl }}/images/07-100.jpg"/>
+      </div>
+    </div>
+
+    <div class="section" id="section7">
+      <div class="intro">
+        <img src="{{ site.baseurl }}/images/08-100.jpg"/>
+      </div>
+    </div>
+
+    <div class="section" id="section8">
+      <div class="intro">
+        <img src="{{ site.baseurl }}/images/09-100.jpg"/>
+      </div>
+    </div>
+
+    <div class="section" id="section9">
+      <div class="intro">
+        <img src="{{ site.baseurl }}/images/10-100.jpg"/>
+      </div>
+    </div>
+
+    <div class="section" id="section10">
+      <div class="intro">
+        <img src="{{ site.baseurl }}/images/11-100.jpg"/>
+      </div>
+    </div>
+
+    <div class="section" id="section11">
+      <div class="intro">
+        <img src="{{ site.baseurl }}/images/12-100.jpg"/>
+      </div>
+    </div>
+  </div>
+
+
+<script type="text/javascript" src="{{ site.baseurl }}/fullpage.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/examples.js"></script>
+
+<script type="text/javascript">
+    var myFullpage = new fullpage('#fullpage', {
+        anchors: ['firstPage', 'secondPage', '3rdPage'],
+        sectionsColor: ['#C63D0F', '#1BBC9B', '#7E8F7C'],
+        responsiveHeight: 600,
+        afterResponsive: function(isResponsive){
+
+        }
+    });
+</script>
 </body>
 </html>
