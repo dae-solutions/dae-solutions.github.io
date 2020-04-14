@@ -45,74 +45,79 @@
 
   <div id="fullpage">
     <div class="section " id="section0">
-        <img src="{{ site.baseurl }}/images/00-100.jpg"/>
+      <img src="{{ site.baseurl }}/images/00-100.jpg"/>
     </div>
     <div class="section" id="section1">
-          <img src="{{ site.baseurl }}/images/01-100.jpg"/>
+      <img src="{{ site.baseurl }}/images/01-100.jpg"/>
     </div>
 
     <div class="section" id="section2">
-        <img src="{{ site.baseurl }}/images/02-100.jpg"/>
+      <img src="{{ site.baseurl }}/images/02-100.jpg"/>
     </div>
 
     <div class="section" id="section3">
-        <img src="{{ site.baseurl }}/images/03-100.jpg"/>
+      <img src="{{ site.baseurl }}/images/03-100.jpg"/>
     </div>
 
     <div class="section" id="section4">
-        <img src="{{ site.baseurl }}/images/04-100.jpg"/>
+      <img src="{{ site.baseurl }}/images/04-100.jpg"/>
     </div>
 
     <div class="section" id="section5">
-        <img src="{{ site.baseurl }}/images/05-100.jpg"/>
+      <img src="{{ site.baseurl }}/images/05-100.jpg"/>
     </div>
 
     <div class="section" id="section6">
-        <img src="{{ site.baseurl }}/images/06-100.jpg"/>
+      <img src="{{ site.baseurl }}/images/06-100.jpg"/>
     </div>
 
     <div class="section" id="section7">
-        <img src="{{ site.baseurl }}/images/07-100.jpg"/>
+      <img src="{{ site.baseurl }}/images/07-100.jpg"/>
     </div>
 
     <div class="section" id="section8">
-        <img src="{{ site.baseurl }}/images/08-100.jpg"/>
+      <img src="{{ site.baseurl }}/images/08-100.jpg"/>
     </div>
 
     <div class="section" id="section9">
-        <img src="{{ site.baseurl }}/images/09-100.jpg"/>
+      <img src="{{ site.baseurl }}/images/09-100.jpg"/>
     </div>
 
     <div class="section" id="section10">
-        <img src="{{ site.baseurl }}/images/10-100.jpg"/>
+      <img src="{{ site.baseurl }}/images/10-100.jpg"/>
     </div>
 
     <div class="section" id="section11">
-        <img src="{{ site.baseurl }}/images/11-100.jpg"/>
-      </div>
-
-      <div class="section" id="section12">
-          <img src="{{ site.baseurl }}/images/12-100.jpg"/>
-      </div>
+      <img src="{{ site.baseurl }}/images/11-100.jpg"/>
     </div>
 
+    <div class="section" id="section12">
+      <img src="{{ site.baseurl }}/images/12-100.jpg"/>
+    </div>
+  </div>
 
-    <script type="text/javascript" src="{{ site.baseurl }}/fullpage.js"></script>
-    <script type="text/javascript" src="{{ site.baseurl }}/examples.js"></script>
 
-    <script type="text/javascript">
-      var myFullpage = new fullpage('#fullpage', {
-        anchors: ['Branding-guideline', 'Logo', 'Spacing', 'Brand-Ratio', 'Correct-logo-usage', 'Incorrect-logo-usage', 'Typeface', 'Color-Specfication', 'Stationery', 'Umbrella', 'Logo-Usage', 'Reception', 'Meeting-Room'],
-        sectionsColor: ['#fff'],
-        navigation: true,
-        navigationPosition: 'left',
-        navigationTooltips: ['Branding guideline', 'Logo', 'Spacing', 'Brand Ratio', 'Correct logo usage', 'Incorrect logo usage', 'Typeface', 'Color Specfication', 'Stationery', 'Umbrella', 'Logo Usage', 'Reception', 'Meeting Room'],
-        responsiveWidth: 900,
-        afterResponsive: function(isResponsive){
+  <script type="text/javascript" src="{{ site.baseurl }}/fullpage.js"></script>
+  <script type="text/javascript" src="{{ site.baseurl }}/examples.js"></script>
 
-        }
+  <script type="text/javascript">
+    var myFullpage = new fullpage('#fullpage', {
+      anchors: ['Branding-guideline', 'Logo', 'Spacing', 'Brand-Ratio', 'Correct-logo-usage', 'Incorrect-logo-usage', 'Typeface', 'Color-Specfication', 'Stationery', 'Umbrella', 'Logo-Usage', 'Reception', 'Meeting-Room'],
+      sectionsColor: ['#fff'],
+      navigation: true,
+      navigationPosition: 'left',
+      navigationTooltips: ['Branding guideline', 'Logo', 'Spacing', 'Brand Ratio', 'Correct logo usage', 'Incorrect logo usage', 'Typeface', 'Color Specfication', 'Stationery', 'Umbrella', 'Logo Usage', 'Reception', 'Meeting Room'],
+      responsiveWidth: 900,
+      afterResponsive: function(isResponsive){
 
-      });
-    </script>
-  </body>
-  </html>
+      }
+
+    });
+  </script>
+  <script type="text/javascript">
+    window.oncontextmenu = (e) => {
+      e.preventDefault();
+    }
+  </script>>
+</body>
+</html>
