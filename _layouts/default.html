@@ -120,7 +120,7 @@
     <div class="section " id="section0">
       <div class="container menu-bar">
         <img src="{{ site.baseurl }}/images/logo.png"/>
-        <i class="fas fa-bars"></i>
+        <span onclick="openNav()"><i class="fas fa-bars"></i></span>
       </div>
     </div>
     <div class="section" id="section1">
@@ -219,5 +219,14 @@
       e.preventDefault();
     }
   </script> -->
+    <script>
+  function openNav() {
+    document.getElementById("myNav").style.width = "100%";
+  }
+
+  function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+  }
+  </script>
 </body>
 </html>
