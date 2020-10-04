@@ -11,7 +11,12 @@
   <link rel="shortcut icon" type="image/x-icon" href="{{ site.baseurl }}/images/favicon.ico">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+ <!-- reference your copy Font Awesome here (from our CDN or by hosting yourself) -->
+  <link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet">
+  <link href="/your-path-to-fontawesome/css/brands.css" rel="stylesheet">
+  <link href="/your-path-to-fontawesome/css/solid.css" rel="stylesheet">
 
+  <!-- custom styling for all icons -->
 
   <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/fullpage.css" />
   <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/examples.css" />
@@ -41,9 +46,6 @@
     color: #fff;
   }
 
-  .fp-tableCell{
-    display: block;
-  }
 </style>
 
 </head>
@@ -53,6 +55,7 @@
     <div class="section " id="section0">
       <div class="container menu-bar">
         <img src="{{ site.baseurl }}/images/logo.png"/>
+        <i class="fas fa-camera"></i> <!-- this icon's 1) style prefix == fas and 2) icon name == camera -->
       </div>
     </div>
     <div class="section" id="section1">
@@ -122,10 +125,10 @@
 
     });
   </script>
-  <script type="text/javascript">
+ <!--  <script type="text/javascript">
     window.oncontextmenu = (e) => {
       e.preventDefault();
     }
-  </script>>
+  </script> -->
 </body>
 </html>
