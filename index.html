@@ -28,6 +28,9 @@
 
     /* Style for our header texts
     * --------------------------------------- */
+    body {
+      font-family: 'SF Pro Text',-apple-system,BlinkMacSystemFont,Roboto,'Segoe UI',Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';
+    }
     h1{
       font-size: 5em;
       font-family: arial,helvetica;
@@ -50,6 +53,9 @@
       color: #fff;
     }
 
+    .hd{
+      box-shadow: 0 2px 4px 0 rgba(182,182,182,0.5);
+    }
     .menu-bar{
       display: flex;
       justify-content: space-between;
@@ -70,11 +76,6 @@
     .banner-1:focus{
       outline-width: 0;
     }
-    .read-more{
-
-      font-size: 1rem;
-      color: #f1510f;
-    }
     .banner-ttl{
       display: block;
       position: absolute;
@@ -83,14 +84,15 @@
       top: 50%;
       transform: translate(0% , -50%);
       font-size: 4.5rem;
-      font-weight: bolder;
       color: #f1510f;
       line-height: 1.2;
       text-align: left;
     }
     .read-more{
+      font-size: 1rem;
+      color: #f1510f;
       position: absolute;
-      bottom: 4%;
+      bottom: 6%;
       z-index: 12;
     }
     .home-ttl, .home-desc{
@@ -206,17 +208,18 @@
       color: white;
       text-decoration: none;
       transition: color 0.2s;
-      font-family: Trebuchet MS;
+      font-weight: 100;
+      /*font-family: Trebuchet MS;*/
       /*text-transform: uppercase;*/
       padding: 8px 8% 8px;
     }
 
     .menu ul li a:hover {
-      color: #f1510f;
+      color: #212529;
     }
 
     .menu ul li:hover {
-      background: white;
+      /*background: white;*/
     }
 
     .menuEffects {
@@ -280,6 +283,8 @@
 <body>
   <div id="fullpage">
     <div class="section " id="section0">
+      <div class="hd">
+        
       <div class="container menu-bar">
         <img src="./img/logo.png"/>
         <!-- <i class="fas fa-bars"></i> -->
@@ -308,6 +313,7 @@
             </div>
           </div>
         </div>
+      </div>
       </div>
       <div class="banner">
         <div class="container">
