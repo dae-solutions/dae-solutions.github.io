@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-   <!-- reference your copy Font Awesome here (from our CDN or by hosting yourself) -->
+    <!-- reference your copy Font Awesome here (from our CDN or by hosting yourself) -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
     <!-- slick carousel-->
 
@@ -61,8 +61,8 @@
       color: #f1510f;
     }
     input {
-    display: none;
-  }
+      display: none;
+    }
     .banner{
       position: relative;
       font-weight: normal;
@@ -107,6 +107,10 @@
 
     /* Nav menu
     * --------------------------------------- */
+    input {
+      display: none;
+    }
+
     .open {
       background-color: #3c3c3c;
       width: 24px;
@@ -163,12 +167,11 @@
 
     .menu {
       position: fixed;
-      z-index: 100;
       width: 100vw;
       height: 100vh;
       top: 0;
       left: 0;
-      background: rgba(255, 135, 2, 0.9);
+      background: #f1510f;
     }
 
     .menu label {
@@ -188,7 +191,7 @@
       /*text-align: center;*/
       text-align: right;
       padding-bottom: 20px;
-      padding-right: 10%; 
+      /*padding-right: 10%; */
       margin-top: -170px;
     }
 
@@ -204,11 +207,12 @@
       text-decoration: none;
       transition: color 0.2s;
       font-family: Trebuchet MS;
-      padding: 10px 0;
+      /*text-transform: uppercase;*/
+      padding: 8px 8% 8px;
     }
 
     .menu ul li a:hover {
-      color: #ff8702;
+      color: #f1510f;
     }
 
     .menu ul li:hover {
@@ -264,6 +268,7 @@
       transform: translateY(-30%);
     }
 
+
     .fp-left{
       display: none;
     }
@@ -271,16 +276,16 @@
 
   </style>
 
-  </head>
-  <body>
-    <div id="fullpage">
-      <div class="section " id="section0">
-        <div class="container menu-bar">
-          <img src="./img/logo.png"/>
-          <!-- <i class="fas fa-bars"></i> -->
+</head>
+<body>
+  <div id="fullpage">
+    <div class="section " id="section0">
+      <div class="container menu-bar">
+        <img src="./img/logo.png"/>
+        <!-- <i class="fas fa-bars"></i> -->
 
-          <div id="menuArea">
-            <input type="checkbox" id="menuToggle"></input>
+        <div id="menuArea" style="z-index: 100">
+          <input type="checkbox" id="menuToggle"></input>
 
           <label for="menuToggle" class="menuOpen">
             <div class="open"></div>
@@ -302,11 +307,11 @@
               </ul>
             </div>
           </div>
-          </div>
         </div>
-        <div class="banner">
-          <div class="container">
-            <p class="read-more">View Article
+      </div>
+      <div class="banner">
+        <div class="container">
+          <p class="read-more">View Article
             <i class="fas fa-chevron-right"></i></p>
           </div>
           <div class="bnr-fade">
@@ -336,9 +341,9 @@
         <div class="container">
           <h3 class="home-ttl">About Dae-solutions</h3>
           <p class="home-desc">Distribution partnerships involve one partner agreeing to cross-market or bundle another partner’s product of services into their own distribution channels to target the agreed custom base
-What is it?
-On-line chat is a feature that involves real-time texting over the web.
-</p>
+            What is it?
+            On-line chat is a feature that involves real-time texting over the web.
+          </p>
         </div>          
       </div>
       <div class="section" id="section1">
