@@ -1,0 +1,401 @@
+  <!DOCTYPE html>
+  <html xmlns="http://www.w3.org/1999/xhtml">
+
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>DAE Solutions｜DigitalーAdvertisingーEvent</title>
+    <meta name="author" content="DAE Solutions" />
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="DAE Solutions - Brand Guideline" />
+    <meta name="keywords"  content="DAE Solutions, Agency, Digital, Advertising, Event" />
+    <meta name="Resource-type" content="Document" />
+    <link rel="shortcut icon" type="image/x-icon" href="./img/favicon.ico">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+   <!-- reference your copy Font Awesome here (from our CDN or by hosting yourself) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <!-- slick carousel-->
+
+    <link rel="stylesheet" type="text/css" href="./css-cmn/slick-1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="./css-cmn/slick-1.8.1/slick/slick-theme.css"/>
+
+    <!-- custom styling for all icons -->
+
+    <link rel="stylesheet" type="text/css" href="./fullpage.css" />
+    <link rel="stylesheet" type="text/css" href="./examples.css" />
+    <style>
+
+    /* Style for our header texts
+    * --------------------------------------- */
+    h1{
+      font-size: 5em;
+      font-family: arial,helvetica;
+      color: #fff;
+      margin:0;
+    }
+    .intro p{
+      color: #fff;
+    }
+
+    /* Centered texts in each section
+    * --------------------------------------- */
+    .section{
+      text-align:center;
+    }
+
+    /* Bottom menu
+    * --------------------------------------- */
+    #infoMenu li a {
+      color: #fff;
+    }
+
+    .menu-bar{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 8px 0;
+    }
+
+    .menu-bar > .fa-bars{
+      color: #f1510f;
+    }
+    input {
+    display: none;
+  }
+    .banner{
+      position: relative;
+      font-weight: normal;
+    }
+    .read-more{
+
+      font-size: 1rem;
+      color: #f1510f;
+    }
+    .banner-ttl{
+      display: block;
+      position: absolute;
+      z-index: 1;
+      left: 10%;
+      top: 50%;
+      transform: translate(0% , -50%);
+      font-size: 4.5rem;
+      font-weight: bolder;
+      color: #f1510f;
+      line-height: 1.2;
+      text-align: left;
+    }
+    .read-more{
+      position: absolute;
+      bottom: 0%;
+      z-index: 12;
+    }
+
+    /* Nav menu
+    * --------------------------------------- */
+    .open {
+      background-color: #3c3c3c;
+      width: 24px;
+      height: 4px;
+      display: block;
+      border-radius: 2px;
+      cursor: pointer;
+      position: relative;
+      top: 8px;
+    }
+
+    .open:before {
+      content: "";
+      background-color: #3c3c3c;
+      width: 24px;
+      height: 4px;
+      display: block;
+      border-radius: 2px;
+      position: relative;
+      top: -8px;
+      transform: rotate(0deg);
+      transition: all 0.3s ease;
+    }
+
+    .open:after {
+      content: "";
+      background-color: #3c3c3c;
+      width: 24px;
+      height: 4px;
+      display: block;
+      border-radius: 2px;
+      position: relative;
+      top: 4px;
+      transform: rotate(0deg);
+      transition: all 0.3s ease;
+    }
+
+    .menuOpen {
+      width: 24px;
+      height: 20px;
+      display: block;
+      padding: 15px;
+      cursor: pointer;
+      float: right;
+    }
+
+    .menuOpen:hover .open:before {
+      top: -9px;
+    }
+
+    .menuOpen:hover .open:after {
+      top: 5px;
+    }
+
+    .menu {
+      position: fixed;
+      z-index: 100;
+      width: 100vw;
+      height: 100vh;
+      top: 0;
+      left: 0;
+      background: rgba(255, 135, 2, 0.9);
+    }
+
+    .menu label {
+      width: 30px;
+      height: 30px;
+      position: absolute;
+      right: 20px;
+      top: 20px;
+      background-size: 100%;
+      cursor: pointer;
+    }
+
+    .menu .menuContent {
+      position: relative;
+      top: 40%;
+      font-size: 24px;
+      text-align: center;
+      padding-bottom: 20px;
+      margin-top: -170px;
+    }
+
+    .menu ul {
+      list-style: none;
+      padding: 0;
+      margin: 0 auto;
+    }
+
+    .menu ul li a {
+      display: block;
+      color: white;
+      text-decoration: none;
+      transition: color 0.2s;
+      font-family: Trebuchet MS;
+      padding: 10px 0;
+    }
+
+    .menu ul li a:hover {
+      color: #ff8702;
+    }
+
+    .menu ul li:hover {
+      background: white;
+    }
+
+    .menuEffects {
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.5s, visibility 0.5s;
+    }
+
+    .menuEffects ul {
+      transform: translateY(0%);
+      transition: all 0.5s;
+    }
+
+    #menuToggle:checked ~ .menuEffects {
+      opacity: 1;
+      visibility: visible;
+      transition: opacity 0.5s;
+    }
+
+    #menuToggle:checked ~ .menuEffects ul {
+      opacity: 1;
+    }
+
+    #menuToggle:checked ~ .menuOpen .open {
+      background-color: transparent;
+    }
+
+    #menuToggle:checked ~ .menuOpen .open:before {
+      content: "";
+      background-color: white;
+      transform: rotate(45deg);
+      position: absolute;
+      top: 0;
+      right: 0;
+      z-index: 1;
+    }
+
+    #menuToggle:checked ~ .menuOpen .open:after {
+      content: "";
+      background-color: white;
+      transform: rotate(-45deg);
+      position: relative;
+      top: 0;
+      right: 0;
+      z-index: 1;
+    }
+
+    #menuToggle:not(:checked) ~ .menuEffects ul {
+      transform: translateY(-30%);
+    }
+
+    .slick-dots{
+      background-color: #f9f8f6;
+      text-align: left;
+      /*left: 30%;*/
+    }
+
+
+  </style>
+
+  </head>
+  <body>
+    <div id="fullpage">
+      <div class="section " id="section0">
+        <div class="container menu-bar">
+          <img src="./img/logo.png"/>
+          <!-- <i class="fas fa-bars"></i> -->
+
+          <div id="menuArea">
+            <input type="checkbox" id="menuToggle"></input>
+
+          <label for="menuToggle" class="menuOpen">
+            <div class="open"></div>
+          </label>
+
+          <div class="menu menuEffects">
+            <label for="menuToggle"></label>
+            <div class="menuContent">
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Work</a></li>
+                <li><a href="#">Partners</a></li>
+                <li><a href="#">Academy</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Ourteam</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+          </div>
+        </div>
+        <div class="banner">
+
+          <div class="container">
+            <p class="read-more">View Article
+            <i class="fas fa-chevron-right"></i></p>
+          </div>
+          <div class="bnr-fade">
+            <div class="banner-1">
+              <p class="banner-ttl">Isobar named a <br/>
+                Leader by <br/>
+                Gartner <br/>
+              </p>
+              <img width="100%" src="./img/banner_1.jpg"/>
+            </div>
+            <img width="100%" src="./img/banner_1.jpg"/>
+            <img width="100%" src="./img/banner_1.jpg"/>
+          </div>
+        </div>>
+      </div>
+      <div class="section" id="section1">
+        <img src="./img/01-100.jpg"/>
+      </div>
+
+      <div class="section" id="section2">
+        <img src="./img/02-100.jpg"/>
+      </div>
+
+      <div class="section" id="section3">
+        <img src="./img/03-100.jpg"/>
+      </div>
+
+      <div class="section" id="section4">
+        <img src="./img/04-100.jpg"/>
+      </div>
+
+      <div class="section" id="section5">
+        <img src="./img/05-100.jpg"/>
+      </div>
+
+      <div class="section" id="section6">
+        <img src="./img/06-100.jpg"/>
+      </div>
+
+      <div class="section" id="section7">
+        <img src="./img/07-100.jpg"/>
+      </div>
+
+      <div class="section" id="section8">
+        <img src="./img/08-100.jpg"/>
+      </div>
+
+      <div class="section" id="section9">
+        <img src="./img/09-100.jpg"/>
+      </div>
+
+      <div class="section" id="section10">
+        <img src="./img/10-100.jpg"/>
+      </div>
+
+      <div class="section" id="section11">
+        <img src="./img/11-100.jpg"/>
+      </div>
+
+      <div class="section" id="section12">
+        <img src="./img/12-100.jpg"/>
+      </div>
+    </div>
+
+
+    <script type="text/javascript" src="./fullpage.js"></script>
+    <script type="text/javascript" src="./examples.js"></script>
+
+    <script type="text/javascript">
+      var myFullpage = new fullpage('#fullpage', {
+        anchors: ['Branding-guideline', 'Logo', 'Spacing', 'Brand-Ratio', 'Correct-logo-usage', 'Incorrect-logo-usage', 'Typeface', 'Color-Specfication', 'Stationery', 'Umbrella', 'Logo-Usage', 'Reception', 'Meeting-Room'],
+        sectionsColor: ['#fff'],
+        navigation: true,
+        navigationPosition: 'left',
+        navigationTooltips: ['Branding guideline', 'Logo', 'Spacing', 'Brand Ratio', 'Correct logo usage', 'Incorrect logo usage', 'Typeface', 'Color Specfication', 'Stationery', 'Umbrella', 'Logo Usage', 'Reception', 'Meeting Room'],
+        responsiveWidth: 900,
+        afterResponsive: function(isResponsive){
+
+        }
+
+      });
+    </script>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="./css-cmn/slick-1.8.1/slick/slick.min.js"></script>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.bnr-fade').slick({
+          dots: true,
+          infinite: true,
+          speed: 500,
+          fade: true,
+          cssEase: 'linear'
+        });
+      });
+    </script>
+   <!--  <script type="text/javascript">
+      window.oncontextmenu = (e) => {
+        e.preventDefault();
+      }
+    </script> -->
+  </body>
+  </html>
