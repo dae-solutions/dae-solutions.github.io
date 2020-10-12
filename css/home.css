@@ -76,24 +76,38 @@
       color: #f1510f !important;
       opacity: 1;
     }
-
+    /*-------- Service --------*/
+    .pg-ttl{
+      margin: 4rem 0;
+    }
     /* Tab  */
     #myTab{
       display: flex;
       justify-content: space-evenly;
       margin-bottom: 3rem;
     }
+
+    .nav-tabs{
+      border: none;
+    }
     .nav-link{
-      font-size: 2rem;
+      font-size: 1.5rem;
+      color: #707070;
+    }
+    .nav-link:hover{
+      color: #f1510f !important;
+      border: none;
     }
     .nav-link.active{
       color: #f1510f !important;
+      border: none;
+      border-bottom: 3px solid #f1510b !important;
     }
     .tab-desc{
       display: flex !important;
     }
     .tab-img{
-      width: 40%;
+      width: 50%;
       margin-right: 2rem;
     }
     .tab-ttl{
