@@ -130,11 +130,10 @@
 
     width: 100%;
     padding: 0;
-    padding-left: 9%; 
+    /*padding-left: 9%; */
     margin: 0;
 
-    list-style: none;
-
+    z-index: 2 !important;
     /*text-align: center;*/
     text-align: left !important;
 }
