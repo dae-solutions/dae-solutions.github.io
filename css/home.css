@@ -78,13 +78,14 @@
     }
     /*-------- Service --------*/
     .pg-ttl{
-      margin: 4rem 0;
+      margin: 2rem 0;
+      color: #707070;
     }
     /* Tab  */
-    #myTab{
+    #tabService{
       display: flex;
       justify-content: space-evenly;
-      margin-bottom: 3rem;
+      /*margin-bottom: 3rem;*/
     }
 
     .nav-tabs{
@@ -102,14 +103,16 @@
       color: #f1510f !important;
       border: none;
       border-bottom: 3px solid #f1510b !important;
+      background-color: transparent !important;
     }
     .tab-desc{
       display: flex !important;
     }
     .tab-img{
-      width: 50%;
+      width: 100%;
       margin-right: 2rem;
     }
     .tab-ttl{
       color: #f1510f;
+      font-size: 2rem;
     }
