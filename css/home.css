@@ -1,132 +1,125 @@
 /* Bottom menu --------------------------------------- */
-    #infoMenu li a {
-      color: #fff;
-    }
-    .menu-bar{
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 8px 0;
-    }
+#infoMenu li a {
+  color: #fff;
+}
+.menu-bar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+}
 
-    .menu-bar > .fa-bars{
-      color: #f1510f;
-    }
-    input {
-      display: none;
-    }
-    .banner{
-      position: relative;
-      font-weight: normal;
-    }
-    .banner-1{
-      width: 100%;
-    }
-    .banner-1:focus{
-      outline-width: 0;
-    }
-    .bnr-home{
-      position: relative;
-      width: 100%;
-      right: 0;
-      /*min-height: 600px;*/
-    }
-    @media only screen and (max-width: 600px) {
-      .bnr-home {
-        /*width: auto;*/
-        object-fit: contain;
-        height: 400px;
-      }
-    }
-    .bnr-ttl{
-      display: block;
-      position: absolute;
-      z-index: 1;
-      /*left: 8%;*/
-      top: 50%;
-      transform: translate(0% , -50%);
-      font-size: 4vw;
-      color: #f1510f;
-      line-height: 1.2;
-      text-align: left;
-    }
-    .btn-bnr{
-      font-size: 1rem;
-      color: #f1510f;
-      position: absolute;
-      bottom: 2%;
-      z-index: 12;
-    }
-    .home-ttl, .home-desc{
-      text-align: left !important;
-    }
-    .home-ttl{
-      font-size: 1.5rem;
-      color: #f1510f;
-      padding: 8px 0;
-    }
-    /*.home-desc{
-      font-size: 1rem;
-    }*/
-    /*.slick-dots li button{
-      width: 10px;
-      height: 10px;
-      background: #a3a3a3;
-    }*/
-    .slick-dots li button::before{
-      content: '■';
-      font-size: 16px;
-      color: #a3a3a3;
-    }
-    .slick-dots li.slick-active button:before{
-      color: #f1510f !important;
-      opacity: 1;
-    }
-    /*-------- Service --------*/
-    .pg-ttl{
-      margin: 2rem 0;
-      color: #707070;
-    }
-    /* Tab  */
-    #tabService{
-      display: flex;
-      justify-content: space-evenly;
-      /*margin-bottom: 3rem;*/
-    }
+.menu-bar > .fa-bars{
+  color: #f1510f;
+}
+input {
+  display: none;
+}
+.banner{
+  position: relative;
+  font-weight: normal;
+}
+.banner-1{
+  width: 100%;
+}
+.banner-1:focus{
+  outline-width: 0;
+}
+.bnr-home{
+  position: relative;
+  width: 100%;
+  right: 0;
+  /*min-height: 600px;*/
+}
+@media only screen and (max-width: 600px) {
+  .bnr-home {
+    /*width: auto;*/
+    object-fit: contain;
+    height: 400px;
+  }
+}
+.bnr-ttl{
+  display: block;
+  position: absolute;
+  z-index: 1;
+  /*left: 8%;*/
+  top: 50%;
+  transform: translate(0% , -50%);
+  font-size: 4vw;
+  color: #f1510f;
+  line-height: 1.2;
+  text-align: left;
+}
+.btn-bnr{
+  font-size: 1rem;
+  color: #f1510f;
+  position: absolute;
+  bottom: 2%;
+  z-index: 12;
+}
+.home-ttl, .home-desc{
+  text-align: left !important;
+}
+.home-ttl{
+  font-size: 1.5rem;
+  color: #f1510f;
+  padding: 8px 0;
+}
+.slick-dots li button::before{
+  content: '■';
+  font-size: 16px;
+  color: #a3a3a3;
+}
+.slick-dots li.slick-active button:before{
+  color: #f1510f !important;
+  opacity: 1;
+}
+/*-------- Service --------*/
+.pg-ttl{
+  margin: 2rem 0;
+  color: #707070;
+}
+/* Tab  */
+#tabService{
+  display: flex;
+  justify-content: space-evenly;
+  /*margin-bottom: 3rem;*/
+}
 
-    .nav-tabs{
-      border: none;
-    }
-    .nav-link{
-      font-size: 1.5rem;
-      color: #707070;
-    }
-    .nav-link:hover{
-      color: #f1510f !important;
-      border: none;
-    }
-    .nav-link.active{
-      color: #f1510f !important;
-      border: none;
-      border-bottom: 3px solid #f1510b !important;
-      background-color: transparent !important;
-    }
-    .tab-desc{
-      display: flex !important;
-    }
-    .tab-img{
-      width: 100%;
-      margin-right: 2rem;
-    }
-    .tab-ttl{
-      color: #f1510f;
-      font-size: 2rem;
-    }
+.nav-tabs{
+  border: none;
+}
+.nav-link{
+  font-size: 1.5rem;
+  color: #707070;
+}
+.nav-link:hover{
+  color: #f1510f !important;
+  border: none;
+}
+.nav-link.active{
+  color: #f1510f !important;
+  border: none;
+  border-bottom: 3px solid #f1510b !important;
+  background-color: transparent !important;
+}
+.tab-desc{
+  display: flex !important;
+}
+.tab-img{
+  width: 100%;
+  margin-right: 2rem;
+}
 
-    .read-more > i{
-      margin-left: 1rem;
-    }
+.tab-ttl{
+  color: #f1510f;
+  font-size: 2rem;
+}
 
-    .work-card, .client-card, .academy-card{
-      padding: 0.5rem;
-    }
+.read-more > i{
+  margin-left: 1rem;
+}
+
+.work-card, .client-card, .academy-card{
+  margin: .5rem !important;
+}
