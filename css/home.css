@@ -76,7 +76,7 @@ input {
 }
 /*-------- Service --------*/
 .pg-ttl{
-  margin: 2rem 0rem 2rem 1.4rem;
+  margin: 1rem 0rem 1rem 1.4rem;
   color: #707070;
 }
 /* Tab  */
@@ -122,4 +122,13 @@ input {
 
 .work-card, .client-card, .academy-card{
   margin: .5rem !important;
+}
+
+.card-desc{
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
 }
