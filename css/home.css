@@ -56,8 +56,11 @@ input {
   bottom: 2%;
   z-index: 12;
 }
-.home-ttl, .home-desc{
-  text-align: left !important;
+.btn-bnr > i{
+  margin-left: .5rem;
+}
+.desc{
+  color: #707070;
 }
 .home-ttl{
   font-size: 1.5rem;
@@ -78,10 +81,13 @@ input {
   margin: 1rem 0rem 1rem 0rem;
   color: #707070;
   font-size: 1.5rem;
+  font-weight: bold;
 }
 /* Tab  */
+.tab-content{width: 100%}
 #tabService{
   display: flex;
+  width: 100%;
   justify-content: space-evenly;
   /*margin-bottom: 3rem;*/
 }
@@ -104,19 +110,21 @@ input {
   background-color: transparent !important;
 }
 .tab-desc{
-  display: flex !important;
+  /*display: flex !important;*/
 }
 .tab-img{
   width: 100%;
-  margin-right: 2rem;
+  /*margin-right: 2rem;*/
 }
 
 .tab-ttl{
-  color: #f1510f;
-  font-size: 2rem;
+  /*color: #f1510f;*/
+  color: #101010;
+  font-size: 1.6rem;
 }
 .read-more{
   font-size: .9rem;
+  padding-bottom: .5rem;
 }
 .read-more > i{
   margin-left: 1rem;
@@ -143,4 +151,11 @@ input {
 }
 .slick-prev:before, .slick-next:before{
   color: #909090;
+}
+
+.article-item{
+  border: none;
+  padding: .5rem 1.25rem;
+  font-size: 1rem;
+  color: #707070;
 }

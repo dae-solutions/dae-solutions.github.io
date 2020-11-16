@@ -52,7 +52,7 @@
                   <li><a href="#Work">Work</a></li>
                   <li><a href="#Partners">Partners</a></li>
                   <li><a href="pages/academy.php">Academy</a></li>
-                  <li><a href="#News">News</a></li>
+                  <li><a href="pages/news.php">News</a></li>
                   <li><a href="#">Ourteam</a></li>
                   <li><a href="#">Contact</a></li>
                 </ul>

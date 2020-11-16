@@ -33,7 +33,7 @@
 <body>
   <header class="hd container">
     <div class="container menu-bar">
-      <a href="#"><img src="../img/logo.png"/></a>
+      <a href="/"><img src="../img/logo.png"/></a>
       <div id="menuArea" style="z-index: 100">
         <input type="checkbox" id="menuToggle"></input>
         <label for="menuToggle" class="menuOpen">
@@ -43,13 +43,13 @@
           <label for="menuToggle"></label>
           <div class="menuContent">
             <ul class="container">
-              <li><a href="./../index.php">Home</a></li>
+              <li><a href="/">Home</a></li>
               <li><a href="#">About</a></li>
               <li><a href="/#Service">Services</a></li>
               <li><a href="/#Work">Work</a></li>
               <li><a href="/#Partners">Partners</a></li>
-              <li><a href="#">Academy</a></li>
-              <li><a href="#News">News</a></li>
+              <li><a href="./academy.php">Academy</a></li>
+              <li><a href="./news.php">News</a></li>
               <li><a href="#">Ourteam</a></li>
               <li><a href="#">Contact</a></li>
             </ul>

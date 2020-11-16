@@ -29,7 +29,7 @@
   <div class="row">
     <div class="col">
       <h3 class="home-ttl">About Dae-solutions</h3>
-      <p class="home-desc">Distribution partnerships involve one partner agreeing to cross-market or bundle another partner’s product of services into their own distribution channels to target the agreed custom base <br/> What is it? <br/> On-line chat is a feature that involves real-time texting over the web.</p>
+      <p class="desc">Distribution partnerships involve one partner agreeing to cross-market or bundle another partner’s product of services into their own distribution channels to target the agreed custom base <br/> What is it? <br/> On-line chat is a feature that involves real-time texting over the web.</p>
     </div>
   </div>
 </div>          
@@ -69,8 +69,8 @@
               <div class="col-md-6 col-sm-12 col-12">
                 <div class="d-flex flex-column justify-content-center h-100">
                   <h4 class="tab-ttl">INTEGRATED MARKETING COMMUNICATION</h4>
-                  <p>Marketing Cloud là nền tảng hợp nhất các ứng dụng đám mây giúp vận hành và tối ưu hoá một chiến dịch Digital Marketing.</p>
-                  <a href="#" class="read-more">Read more<i class="fas fa-chevron-right"></i></a>
+                  <p class="desc">Marketing Cloud là nền tảng hợp nhất các ứng dụng đám mây giúp vận hành và tối ưu hoá một chiến dịch Digital Marketing.</p>
+                  <a href="/pages/article-1.php" class="read-more">Read more<i class="fas fa-chevron-right"></i></a>
                 </div>
               </div>
             </div>
@@ -85,8 +85,8 @@
               <div class="col-md-6 col-sm-12 col-12">
                 <div class="d-flex flex-column justify-content-center h-100">
                   <h4 class="tab-ttl">INTEGRATED MARKETING COMMUNICATION</h4>
-                  <p>Marketing Cloud là nền tảng hợp nhất các ứng dụng đám mây giúp vận hành và tối ưu hoá một chiến dịch Digital Marketing.</p>
-                  <a href="#" class="read-more">Read more<i class="fas fa-chevron-right"></i></a>
+                  <p class="desc">Marketing Cloud là nền tảng hợp nhất các ứng dụng đám mây giúp vận hành và tối ưu hoá một chiến dịch Digital Marketing.</p>
+                  <a href="/pages/article-1.php" class="read-more">Read more<i class="fas fa-chevron-right"></i></a>
                 </div>
               </div>
             </div>
@@ -101,8 +101,8 @@
               <div class="col-md-6 col-sm-12 col-12">
                 <div class="d-flex flex-column justify-content-center h-100">
                   <h4 class="tab-ttl">INTEGRATED MARKETING COMMUNICATION</h4>
-                  <p>Marketing Cloud là nền tảng hợp nhất các ứng dụng đám mây giúp vận hành và tối ưu hoá một chiến dịch Digital Marketing.</p>
-                  <a href="#" class="read-more">Read more<i class="fas fa-chevron-right"></i></a>
+                  <p class="desc">Marketing Cloud là nền tảng hợp nhất các ứng dụng đám mây giúp vận hành và tối ưu hoá một chiến dịch Digital Marketing.</p>
+                  <a href="/pages/article-1.php" class="read-more">Read more<i class="fas fa-chevron-right"></i></a>
                 </div>
               </div>
             </div>
@@ -119,8 +119,8 @@
               <div class="col-md-6 col-sm-12 col-12">
                 <div class="d-flex flex-column justify-content-center h-100">
                   <h4 class="tab-ttl">INTEGRATED MARKETING COMMUNICATION</h4>
-                  <p>Marketing Cloud là nền tảng hợp nhất các ứng dụng đám mây giúp vận hành và tối ưu hoá một chiến dịch Digital Marketing.</p>
-                  <a href="#" class="read-more">Read more<i class="fas fa-chevron-right"></i></a>
+                  <p class="desc">Marketing Cloud là nền tảng hợp nhất các ứng dụng đám mây giúp vận hành và tối ưu hoá một chiến dịch Digital Marketing.</p>
+                  <a href="/pages/article-1.php" class="read-more">Read more<i class="fas fa-chevron-right"></i></a>
                 </div>
               </div>
             </div>
@@ -139,42 +139,42 @@
     </div>
     <div class="row">
       <div class="col">
-        <div class="work-sld">
+        <div class="sliding-blk">
           <div class="slide-card">
             <img class="tab-img" src="./img/work/work-1.jpg">
             <h3 class="card-ttl">Mekong Group Food</h3>
             <p class="card-desc">Một dự án lớn như thiết kế website giới thiệu tập đoàn lớn như Mekong Food Group sẽ được thực hiện như thế nào? Trên nguyên tắc thiết kế website giới thiệu</p>
-            <a href="#" class="read-more">Read more<i class="fas fa-chevron-right"></i></a>
+            <a href="pages/article-2.php" class="read-more">Read more<i class="fas fa-chevron-right"></i></a>
           </div>
           <div class="slide-card">
             <img class="tab-img" src="./img/work/work-2.jpg">
             <h3 class="card-ttl">Mekong Group Food</h3>
             <p class="card-desc">Một dự án lớn như thiết kế website giới thiệu tập đoàn lớn như Mekong Food Group sẽ được thực hiện như thế nào? Trên nguyên tắc thiết kế website giới thiệu</p>
-            <a href="#" class="read-more">Read more<i class="fas fa-chevron-right"></i></a>
+            <a href="pages/article-2.php" class="read-more">Read more<i class="fas fa-chevron-right"></i></a>
           </div>
           <div class="slide-card">
             <img class="tab-img" src="./img/work/work-3.jpg">
             <h3 class="card-ttl">Mekong Group Food</h3>
             <p class="card-desc">Một dự án lớn như thiết kế website giới thiệu tập đoàn lớn như Mekong Food Group sẽ được thực hiện như thế nào? Trên nguyên tắc thiết kế website giới thiệu</p>
-            <a href="#" class="read-more">Read more<i class="fas fa-chevron-right"></i></a>
+            <a href="pages/article-2.php" class="read-more">Read more<i class="fas fa-chevron-right"></i></a>
           </div>
           <div class="slide-card">
             <img class="tab-img" src="./img/work/work-4.jpg">
             <h3 class="card-ttl">Mekong Group Food</h3>
             <p class="card-desc">Một dự án lớn như thiết kế website giới thiệu tập đoàn lớn như Mekong Food Group sẽ được thực hiện như thế nào? Trên nguyên tắc thiết kế website giới thiệu</p>
-            <a href="#" class="read-more">Read more<i class="fas fa-chevron-right"></i></a>
+            <a href="pages/article-2.php" class="read-more">Read more<i class="fas fa-chevron-right"></i></a>
           </div>
           <div class="slide-card">
             <img class="tab-img" src="./img/work/work-5.jpg">
             <h3 class="card-ttl">Mekong Group Food</h3>
             <p class="card-desc">Một dự án lớn như thiết kế website giới thiệu tập đoàn lớn như Mekong Food Group sẽ được thực hiện như thế nào? Trên nguyên tắc thiết kế website giới thiệu</p>
-            <a href="#" class="read-more">Read more<i class="fas fa-chevron-right"></i></a>
+            <a href="pages/article-2.php" class="read-more">Read more<i class="fas fa-chevron-right"></i></a>
           </div>
           <div class="slide-card">
             <img class="tab-img" src="./img/work/work-6.jpg">
             <h3 class="card-ttl">Mekong Group Food</h3>
             <p class="card-desc">Một dự án lớn như thiết kế website giới thiệu tập đoàn lớn như Mekong Food Group sẽ được thực hiện như thế nào? Trên nguyên tắc thiết kế website giới thiệu</p>
-            <a href="#" class="read-more">Read more<i class="fas fa-chevron-right"></i></a>
+            <a href="pages/article-2.php" class="read-more">Read more<i class="fas fa-chevron-right"></i></a>
           </div>
         </div>
       </div>
@@ -186,7 +186,7 @@
     </div>
     <div class="row">
       <div class="col">
-        <div class="client-sld">
+        <div class="sliding-blk">
           <div class="slide-card">
             <img height="168px" class="tab-img" src="./img/logo/logo_viettel.png">
           </div>
@@ -213,201 +213,173 @@
 <div class="section" id="section3">
   <div class="container">
     <div class="row">
-      <h2 class="pg-ttl">Partner</h2>
+      <div class="col">
+        <h2 class="pg-ttl">Partner</h2>  
+      </div>
     </div>
-  </div>
-  <div class="container">
-    <!-- Nav pills -->
-    <ul class="nav nav-pills" role="tablist" id="tabService">
-      <li class="nav-item">
-        <a class="nav-link active" data-toggle="pill" href="#cooperate">Cooperate</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" data-toggle="pill" href="#distribution">Distribution</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" data-toggle="pill" href="#sponsorship">Sponsorship</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" data-toggle="pill" href="#other">Other</a>
-      </li>
-    </ul>
-
-    <!-- Tab panes -->
+    <div class="row">
+      <ul class="nav nav-pills pb-2" role="tablist" id="tabService">
+        <li class="nav-item">
+          <a class="nav-link active" data-toggle="pill" href="#cooperate">Cooperate</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="pill" href="#distribution">Distribution</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="pill" href="#sponsorship">Sponsorship</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="pill" href="#other">Other</a>
+        </li>
+      </ul>
+    </div>
+    <div class="row">
+      <div class="col">
+        <h4>To make requests for the further information</h4>
+      </div>
+    </div>
     <div class="tab-content">
-      <div id="cooperate" class="container tab-pane active"><br>
+      <div id="cooperate" class="tab-pane active">
         <div class="tab-desc">
-          <div class="container">
-            <div class="row">
-              <div class="col">
-                <h4>To make requests for the further information</h4>
-                <div class="academy-sld">
-                  <div class="slide-card">
-                    <img class="tab-img" src="./img/tab-marketing.jpg">
-                    <h3 class="card-ttl">Mekong Group Food</h3>
-                    <p class="card-desc">Một dự án lớn như thiết kế website giới thiệu tập đoàn lớn như Mekong Food Group sẽ được thực hiện như thế nào? Trên nguyên tắc thiết kế website giới thiệu</p>
-                    <a href="#" class="read-more">Read more<i class="fas fa-chevron-right"></i></a>
-                  </div>
-                  <div class="slide-card">
-                    <img class="tab-img" src="./img/tab-marketing.jpg">
-                    <h3 class="card-ttl">Mekong Group Food</h3>
-                    <p class="card-desc">Một dự án lớn như thiết kế website giới thiệu tập đoàn lớn như Mekong Food Group sẽ được thực hiện như thế nào? Trên nguyên tắc thiết kế website giới thiệu</p>
-                    <a href="#" class="read-more">Read more<i class="fas fa-chevron-right"></i></a>
-                  </div>
-                  <div class="slide-card">
-                    <img class="tab-img" src="./img/tab-marketing.jpg">
-                    <h3 class="card-ttl">Mekong Group Food</h3>
-                    <p class="card-desc">Một dự án lớn như thiết kế website giới thiệu tập đoàn lớn như Mekong Food Group sẽ được thực hiện như thế nào? Trên nguyên tắc thiết kế website giới thiệu</p>
-                    <a href="#" class="read-more">Read more<i class="fas fa-chevron-right"></i></a>
-                  </div>
-                  <div class="slide-card">
-                    <img class="tab-img" src="./img/tab-marketing.jpg">
-                    <h3 class="card-ttl">Mekong Group Food</h3>
-                    <p class="card-desc">Một dự án lớn như thiết kế website giới thiệu tập đoàn lớn như Mekong Food Group sẽ được thực hiện như thế nào? Trên nguyên tắc thiết kế website giới thiệu</p>
-                    <a href="#" class="read-more">Read more<i class="fas fa-chevron-right"></i></a>
-                  </div>
-                  <div class="slide-card">
-                    <img class="tab-img" src="./img/tab-marketing.jpg">
-                    <h3 class="card-ttl">Mekong Group Food</h3>
-                    <p class="card-desc">Một dự án lớn như thiết kế website giới thiệu tập đoàn lớn như Mekong Food Group sẽ được thực hiện như thế nào? Trên nguyên tắc thiết kế website giới thiệu</p>
-                    <a href="#" class="read-more">Read more<i class="fas fa-chevron-right"></i></a>
-                  </div>                  
-                </div>
-              </div>
-
+          <div class="sliding-blk">
+            <div class="slide-card">
+              <img class="tab-img" src="./img/tab-marketing.jpg">
+              <h3 class="card-ttl">Mekong Group Food</h3>
+              <p class="card-desc">Một dự án lớn như thiết kế website giới thiệu tập đoàn lớn như Mekong Food Group sẽ được thực hiện như thế nào? Trên nguyên tắc thiết kế website giới thiệu</p>
+              <a href="#" class="read-more">Read more<i class="fas fa-chevron-right"></i></a>
             </div>
+            <div class="slide-card">
+              <img class="tab-img" src="./img/tab-marketing.jpg">
+              <h3 class="card-ttl">Mekong Group Food</h3>
+              <p class="card-desc">Một dự án lớn như thiết kế website giới thiệu tập đoàn lớn như Mekong Food Group sẽ được thực hiện như thế nào? Trên nguyên tắc thiết kế website giới thiệu</p>
+              <a href="#" class="read-more">Read more<i class="fas fa-chevron-right"></i></a>
+            </div>
+            <div class="slide-card">
+              <img class="tab-img" src="./img/tab-marketing.jpg">
+              <h3 class="card-ttl">Mekong Group Food</h3>
+              <p class="card-desc">Một dự án lớn như thiết kế website giới thiệu tập đoàn lớn như Mekong Food Group sẽ được thực hiện như thế nào? Trên nguyên tắc thiết kế website giới thiệu</p>
+              <a href="#" class="read-more">Read more<i class="fas fa-chevron-right"></i></a>
+            </div>
+            <div class="slide-card">
+              <img class="tab-img" src="./img/tab-marketing.jpg">
+              <h3 class="card-ttl">Mekong Group Food</h3>
+              <p class="card-desc">Một dự án lớn như thiết kế website giới thiệu tập đoàn lớn như Mekong Food Group sẽ được thực hiện như thế nào? Trên nguyên tắc thiết kế website giới thiệu</p>
+              <a href="#" class="read-more">Read more<i class="fas fa-chevron-right"></i></a>
+            </div>
+            <div class="slide-card">
+              <img class="tab-img" src="./img/tab-marketing.jpg">
+              <h3 class="card-ttl">Mekong Group Food</h3>
+              <p class="card-desc">Một dự án lớn như thiết kế website giới thiệu tập đoàn lớn như Mekong Food Group sẽ được thực hiện như thế nào? Trên nguyên tắc thiết kế website giới thiệu</p>
+              <a href="#" class="read-more">Read more<i class="fas fa-chevron-right"></i></a>
+            </div>                  
           </div>
         </div>
       </div>
-      <div id="distribution" class="container tab-pane fade"><br>
+      <div id="distribution" class="tab-pane fade">
         <div class="tab-desc">
-          <div class="container">
-            <div class="row">
-              <div class="col">
-                <h4>To make requests for the further information</h4>
-                <div class="academy-sld">
-                  <div class="slide-card">
-                    <img class="tab-img" src="./img/tab-marketing.jpg">
-                    <h3 class="card-ttl">Mekong Group Food</h3>
-                    <p class="card-desc">Một dự án lớn như thiết kế website giới thiệu tập đoàn lớn như Mekong Food Group sẽ được thực hiện như thế nào? Trên nguyên tắc thiết kế website giới thiệu</p>
-                    <a href="#" class="read-more">Read more<i class="fas fa-chevron-right"></i></a>
-                  </div>
-                  <div class="slide-card">
-                    <img class="tab-img" src="./img/tab-marketing.jpg">
-                    <h3 class="card-ttl">Mekong Group Food</h3>
-                    <p class="card-desc">Một dự án lớn như thiết kế website giới thiệu tập đoàn lớn như Mekong Food Group sẽ được thực hiện như thế nào? Trên nguyên tắc thiết kế website giới thiệu</p>
-                    <a href="#" class="read-more">Read more<i class="fas fa-chevron-right"></i></a>
-                  </div>
-                  <div class="slide-card">
-                    <img class="tab-img" src="./img/tab-marketing.jpg">
-                    <h3 class="card-ttl">Mekong Group Food</h3>
-                    <p class="card-desc">Một dự án lớn như thiết kế website giới thiệu tập đoàn lớn như Mekong Food Group sẽ được thực hiện như thế nào? Trên nguyên tắc thiết kế website giới thiệu</p>
-                    <a href="#" class="read-more">Read more<i class="fas fa-chevron-right"></i></a>
-                  </div>
-                  <div class="slide-card">
-                    <img class="tab-img" src="./img/tab-marketing.jpg">
-                    <h3 class="card-ttl">Mekong Group Food</h3>
-                    <p class="card-desc">Một dự án lớn như thiết kế website giới thiệu tập đoàn lớn như Mekong Food Group sẽ được thực hiện như thế nào? Trên nguyên tắc thiết kế website giới thiệu</p>
-                    <a href="#" class="read-more">Read more<i class="fas fa-chevron-right"></i></a>
-                  </div>
-                  <div class="slide-card">
-                    <img class="tab-img" src="./img/tab-marketing.jpg">
-                    <h3 class="card-ttl">Mekong Group Food</h3>
-                    <p class="card-desc">Một dự án lớn như thiết kế website giới thiệu tập đoàn lớn như Mekong Food Group sẽ được thực hiện như thế nào? Trên nguyên tắc thiết kế website giới thiệu</p>
-                    <a href="#" class="read-more">Read more<i class="fas fa-chevron-right"></i></a>
-                  </div>                  
-                </div>
-              </div>
-
+          <div class="sliding-blk">
+            <div class="slide-card">
+              <img class="tab-img" src="./img/tab-marketing.jpg">
+              <h3 class="card-ttl">Mekong Group Food</h3>
+              <p class="card-desc">Một dự án lớn như thiết kế website giới thiệu tập đoàn lớn như Mekong Food Group sẽ được thực hiện như thế nào? Trên nguyên tắc thiết kế website giới thiệu</p>
+              <a href="#" class="read-more">Read more<i class="fas fa-chevron-right"></i></a>
             </div>
+            <div class="slide-card">
+              <img class="tab-img" src="./img/tab-marketing.jpg">
+              <h3 class="card-ttl">Mekong Group Food</h3>
+              <p class="card-desc">Một dự án lớn như thiết kế website giới thiệu tập đoàn lớn như Mekong Food Group sẽ được thực hiện như thế nào? Trên nguyên tắc thiết kế website giới thiệu</p>
+              <a href="#" class="read-more">Read more<i class="fas fa-chevron-right"></i></a>
+            </div>
+            <div class="slide-card">
+              <img class="tab-img" src="./img/tab-marketing.jpg">
+              <h3 class="card-ttl">Mekong Group Food</h3>
+              <p class="card-desc">Một dự án lớn như thiết kế website giới thiệu tập đoàn lớn như Mekong Food Group sẽ được thực hiện như thế nào? Trên nguyên tắc thiết kế website giới thiệu</p>
+              <a href="#" class="read-more">Read more<i class="fas fa-chevron-right"></i></a>
+            </div>
+            <div class="slide-card">
+              <img class="tab-img" src="./img/tab-marketing.jpg">
+              <h3 class="card-ttl">Mekong Group Food</h3>
+              <p class="card-desc">Một dự án lớn như thiết kế website giới thiệu tập đoàn lớn như Mekong Food Group sẽ được thực hiện như thế nào? Trên nguyên tắc thiết kế website giới thiệu</p>
+              <a href="#" class="read-more">Read more<i class="fas fa-chevron-right"></i></a>
+            </div>
+            <div class="slide-card">
+              <img class="tab-img" src="./img/tab-marketing.jpg">
+              <h3 class="card-ttl">Mekong Group Food</h3>
+              <p class="card-desc">Một dự án lớn như thiết kế website giới thiệu tập đoàn lớn như Mekong Food Group sẽ được thực hiện như thế nào? Trên nguyên tắc thiết kế website giới thiệu</p>
+              <a href="#" class="read-more">Read more<i class="fas fa-chevron-right"></i></a>
+            </div>                  
           </div>
         </div>
       </div>
-      <div id="sponsorship" class="container tab-pane fade"><br>
+      <div id="sponsorship" class="tab-pane fade">
         <div class="tab-desc">
-          <div class="container">
-            <div class="row">
-              <div class="col">
-                <h4>To make requests for the further information</h4>
-                <div class="academy-sld">
-                  <div class="slide-card">
-                    <img class="tab-img" src="./img/tab-marketing.jpg">
-                    <h3 class="card-ttl">Mekong Group Food</h3>
-                    <p class="card-desc">Một dự án lớn như thiết kế website giới thiệu tập đoàn lớn như Mekong Food Group sẽ được thực hiện như thế nào? Trên nguyên tắc thiết kế website giới thiệu</p>
-                    <a href="#" class="read-more">Read more<i class="fas fa-chevron-right"></i></a>
-                  </div>
-                  <div class="slide-card">
-                    <img class="tab-img" src="./img/tab-marketing.jpg">
-                    <h3 class="card-ttl">Mekong Group Food</h3>
-                    <p class="card-desc">Một dự án lớn như thiết kế website giới thiệu tập đoàn lớn như Mekong Food Group sẽ được thực hiện như thế nào? Trên nguyên tắc thiết kế website giới thiệu</p>
-                    <a href="#" class="read-more">Read more<i class="fas fa-chevron-right"></i></a>
-                  </div>
-                  <div class="slide-card">
-                    <img class="tab-img" src="./img/tab-marketing.jpg">
-                    <h3 class="card-ttl">Mekong Group Food</h3>
-                    <p class="card-desc">Một dự án lớn như thiết kế website giới thiệu tập đoàn lớn như Mekong Food Group sẽ được thực hiện như thế nào? Trên nguyên tắc thiết kế website giới thiệu</p>
-                    <a href="#" class="read-more">Read more<i class="fas fa-chevron-right"></i></a>
-                  </div>
-                  <div class="slide-card">
-                    <img class="tab-img" src="./img/tab-marketing.jpg">
-                    <h3 class="card-ttl">Mekong Group Food</h3>
-                    <p class="card-desc">Một dự án lớn như thiết kế website giới thiệu tập đoàn lớn như Mekong Food Group sẽ được thực hiện như thế nào? Trên nguyên tắc thiết kế website giới thiệu</p>
-                    <a href="#" class="read-more">Read more<i class="fas fa-chevron-right"></i></a>
-                  </div>
-                  <div class="slide-card">
-                    <img class="tab-img" src="./img/tab-marketing.jpg">
-                    <h3 class="card-ttl">Mekong Group Food</h3>
-                    <p class="card-desc">Một dự án lớn như thiết kế website giới thiệu tập đoàn lớn như Mekong Food Group sẽ được thực hiện như thế nào? Trên nguyên tắc thiết kế website giới thiệu</p>
-                    <a href="#" class="read-more">Read more<i class="fas fa-chevron-right"></i></a>
-                  </div>                  
-                </div>
-              </div>
-
+          <div class="sliding-blk">
+            <div class="slide-card">
+              <img class="tab-img" src="./img/tab-marketing.jpg">
+              <h3 class="card-ttl">Mekong Group Food</h3>
+              <p class="card-desc">Một dự án lớn như thiết kế website giới thiệu tập đoàn lớn như Mekong Food Group sẽ được thực hiện như thế nào? Trên nguyên tắc thiết kế website giới thiệu</p>
+              <a href="#" class="read-more">Read more<i class="fas fa-chevron-right"></i></a>
             </div>
+            <div class="slide-card">
+              <img class="tab-img" src="./img/tab-marketing.jpg">
+              <h3 class="card-ttl">Mekong Group Food</h3>
+              <p class="card-desc">Một dự án lớn như thiết kế website giới thiệu tập đoàn lớn như Mekong Food Group sẽ được thực hiện như thế nào? Trên nguyên tắc thiết kế website giới thiệu</p>
+              <a href="#" class="read-more">Read more<i class="fas fa-chevron-right"></i></a>
+            </div>
+            <div class="slide-card">
+              <img class="tab-img" src="./img/tab-marketing.jpg">
+              <h3 class="card-ttl">Mekong Group Food</h3>
+              <p class="card-desc">Một dự án lớn như thiết kế website giới thiệu tập đoàn lớn như Mekong Food Group sẽ được thực hiện như thế nào? Trên nguyên tắc thiết kế website giới thiệu</p>
+              <a href="#" class="read-more">Read more<i class="fas fa-chevron-right"></i></a>
+            </div>
+            <div class="slide-card">
+              <img class="tab-img" src="./img/tab-marketing.jpg">
+              <h3 class="card-ttl">Mekong Group Food</h3>
+              <p class="card-desc">Một dự án lớn như thiết kế website giới thiệu tập đoàn lớn như Mekong Food Group sẽ được thực hiện như thế nào? Trên nguyên tắc thiết kế website giới thiệu</p>
+              <a href="#" class="read-more">Read more<i class="fas fa-chevron-right"></i></a>
+            </div>
+            <div class="slide-card">
+              <img class="tab-img" src="./img/tab-marketing.jpg">
+              <h3 class="card-ttl">Mekong Group Food</h3>
+              <p class="card-desc">Một dự án lớn như thiết kế website giới thiệu tập đoàn lớn như Mekong Food Group sẽ được thực hiện như thế nào? Trên nguyên tắc thiết kế website giới thiệu</p>
+              <a href="#" class="read-more">Read more<i class="fas fa-chevron-right"></i></a>
+            </div>                  
           </div>
         </div>
       </div>
-      <div id="other" class="container tab-pane fade"><br>
+      <div id="other" class="tab-pane fade">
         <div class="tab-desc">
-          <div class="container">
-            <div class="row">
-              <div class="col">
-                <h4>To make requests for the further information</h4>
-                <div class="academy-sld">
-                  <div class="slide-card">
-                    <img class="tab-img" src="./img/tab-marketing.jpg">
-                    <h3 class="card-ttl">Mekong Group Food</h3>
-                    <p class="card-desc">Một dự án lớn như thiết kế website giới thiệu tập đoàn lớn như Mekong Food Group sẽ được thực hiện như thế nào? Trên nguyên tắc thiết kế website giới thiệu</p>
-                    <a href="#" class="read-more">Read more<i class="fas fa-chevron-right"></i></a>
-                  </div>
-                  <div class="slide-card">
-                    <img class="tab-img" src="./img/tab-marketing.jpg">
-                    <h3 class="card-ttl">Mekong Group Food</h3>
-                    <p class="card-desc">Một dự án lớn như thiết kế website giới thiệu tập đoàn lớn như Mekong Food Group sẽ được thực hiện như thế nào? Trên nguyên tắc thiết kế website giới thiệu</p>
-                    <a href="#" class="read-more">Read more<i class="fas fa-chevron-right"></i></a>
-                  </div>
-                  <div class="slide-card">
-                    <img class="tab-img" src="./img/tab-marketing.jpg">
-                    <h3 class="card-ttl">Mekong Group Food</h3>
-                    <p class="card-desc">Một dự án lớn như thiết kế website giới thiệu tập đoàn lớn như Mekong Food Group sẽ được thực hiện như thế nào? Trên nguyên tắc thiết kế website giới thiệu</p>
-                    <a href="#" class="read-more">Read more<i class="fas fa-chevron-right"></i></a>
-                  </div>
-                  <div class="slide-card">
-                    <img class="tab-img" src="./img/tab-marketing.jpg">
-                    <h3 class="card-ttl">Mekong Group Food</h3>
-                    <p class="card-desc">Một dự án lớn như thiết kế website giới thiệu tập đoàn lớn như Mekong Food Group sẽ được thực hiện như thế nào? Trên nguyên tắc thiết kế website giới thiệu</p>
-                    <a href="#" class="read-more">Read more<i class="fas fa-chevron-right"></i></a>
-                  </div>
-                  <div class="slide-card">
-                    <img class="tab-img" src="./img/tab-marketing.jpg">
-                    <h3 class="card-ttl">Mekong Group Food</h3>
-                    <p class="card-desc">Một dự án lớn như thiết kế website giới thiệu tập đoàn lớn như Mekong Food Group sẽ được thực hiện như thế nào? Trên nguyên tắc thiết kế website giới thiệu</p>
-                    <a href="#" class="read-more">Read more<i class="fas fa-chevron-right"></i></a>
-                  </div>                  
-                </div>
-              </div>
-
+          <div class="sliding-blk">
+            <div class="slide-card">
+              <img class="tab-img" src="./img/tab-marketing.jpg">
+              <h3 class="card-ttl">Mekong Group Food</h3>
+              <p class="card-desc">Một dự án lớn như thiết kế website giới thiệu tập đoàn lớn như Mekong Food Group sẽ được thực hiện như thế nào? Trên nguyên tắc thiết kế website giới thiệu</p>
+              <a href="#" class="read-more">Read more<i class="fas fa-chevron-right"></i></a>
             </div>
+            <div class="slide-card">
+              <img class="tab-img" src="./img/tab-marketing.jpg">
+              <h3 class="card-ttl">Mekong Group Food</h3>
+              <p class="card-desc">Một dự án lớn như thiết kế website giới thiệu tập đoàn lớn như Mekong Food Group sẽ được thực hiện như thế nào? Trên nguyên tắc thiết kế website giới thiệu</p>
+              <a href="#" class="read-more">Read more<i class="fas fa-chevron-right"></i></a>
+            </div>
+            <div class="slide-card">
+              <img class="tab-img" src="./img/tab-marketing.jpg">
+              <h3 class="card-ttl">Mekong Group Food</h3>
+              <p class="card-desc">Một dự án lớn như thiết kế website giới thiệu tập đoàn lớn như Mekong Food Group sẽ được thực hiện như thế nào? Trên nguyên tắc thiết kế website giới thiệu</p>
+              <a href="#" class="read-more">Read more<i class="fas fa-chevron-right"></i></a>
+            </div>
+            <div class="slide-card">
+              <img class="tab-img" src="./img/tab-marketing.jpg">
+              <h3 class="card-ttl">Mekong Group Food</h3>
+              <p class="card-desc">Một dự án lớn như thiết kế website giới thiệu tập đoàn lớn như Mekong Food Group sẽ được thực hiện như thế nào? Trên nguyên tắc thiết kế website giới thiệu</p>
+              <a href="#" class="read-more">Read more<i class="fas fa-chevron-right"></i></a>
+            </div>
+            <div class="slide-card">
+              <img class="tab-img" src="./img/tab-marketing.jpg">
+              <h3 class="card-ttl">Mekong Group Food</h3>
+              <p class="card-desc">Một dự án lớn như thiết kế website giới thiệu tập đoàn lớn như Mekong Food Group sẽ được thực hiện như thế nào? Trên nguyên tắc thiết kế website giới thiệu</p>
+              <a href="#" class="read-more">Read more<i class="fas fa-chevron-right"></i></a>
+            </div>                  
           </div>
         </div>
       </div>
@@ -423,7 +395,7 @@
     </div>
     <div class="row">
       <div class="col">
-        <div class="academy-sld">
+        <div class="sliding-blk">
           <div class="slide-card">
             <img class="tab-img" src="./img/tab-marketing.jpg">
             <h3 class="card-ttl">Mekong Group Food</h3>
@@ -459,7 +431,7 @@
     </div>
     <div class="row">
       <div class="col">
-        <div class="client-sld">
+        <div class="sliding-blk">
           <div class="slide-card">
             <img height="168px" class="tab-img" src="./img/logo/logo_viettel.png">
           </div>
@@ -492,7 +464,7 @@
   <div class="container">
     <div class="row">
       <div class="col">
-        <div class="academy-sld">
+        <div class="sliding-blk">
           <div class="slide-card">
             <img class="tab-img" src="./img/tab-marketing.jpg">
             <h3 class="card-ttl">Mekong Group Food</h3>
@@ -560,27 +532,44 @@
   });
 
 </script>
-<script type="text/javascript">
-  if (window.matchMedia("(max-width: 768px)").matches) {
-  /* the viewport is less than 768 pixels wide */
-  $('.work-sld, .client-sld, .academy-sld').slick({
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      autoplay: true,
-      autoplaySpeed: 2000,
-    });
-  } 
+<script type="text/javascript"> 
   $(document).ready(function(){
-    $('.work-sld, .client-sld, .academy-sld').slick({
+    $('.sliding-blk').slick({
       slidesToShow: 4,
       slidesToScroll: 1,
+      infinite: false,
       autoplay: true,
       autoplaySpeed: 2000,
-    });
+      responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          infinite: false,
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+    ]
+  });
   });
 </script>
-
-
  <!--  <script type="text/javascript">
     window.oncontextmenu = (e) => {
       e.preventDefault();
