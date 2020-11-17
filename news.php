@@ -2,7 +2,7 @@
   <div class="container">
     <div class="row">
       <div class="col">
-        <h2 class="pg-ttl">News</h2>
+        <h2 class="pg-ttl pt-5">News</h2>
       </div>
     </div>
     <div class="row">

@@ -2,7 +2,7 @@
 <div class="container">
   <div class="row">
     <div class="col">
-      <h2 class="pg-ttl">Academy</h2>
+      <h2 class="pg-ttl pt-5">Academy</h2>
       <h4>Lastest</h4>
     </div>
   </div>

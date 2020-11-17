@@ -57,5 +57,3 @@
       </div>
     </div>
   </header>
-  <div id="pagescroll">
-    <div id="home" class="section">
