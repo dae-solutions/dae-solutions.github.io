@@ -1,40 +1,40 @@
-<?php include('pages/header.php') ?>
-<div class="banner">
+  <?php include('header.php') ?>
+  <div class="banner">
+    <div class="container">
+      <p class="btn-bnr">View Article<i class="fas fa-chevron-right"></i></p>
+      <div class="bnrSlide"></div>
+    </div>
+    <div class="bnr-fade">
+      <div class="banner-1">
+        <div class="container">
+          <p class="bnr-ttl">Isobar named a <br/>Leader by <br/>Gartner <br/></p>
+        </div>
+        <!-- <img align="right" class="bnr-home" src="./img/banner_1.jpg"/> -->
+      </div>
+      <div class="banner-2">
+        <div class="container">
+          <p class="bnr-ttl">Isobar named a <br/>Leader by <br/>Gartner <br/></p>
+        </div>
+        <!-- <img align="right" class="bnr-home" src="./img/banner_2.jpg"/> -->
+      </div>
+      <div class="banner-3">
+        <div class="container">
+          <p class="bnr-ttl">Isobar named a <br/>Leader by <br/>Gartner <br/></p>
+        </div>
+        <!-- <img align="right" class="bnr-home" src="./img/banner_3.jpg"/> -->
+      </div>
+    </div>
+  </div>
   <div class="container">
-    <p class="btn-bnr">View Article<i class="fas fa-chevron-right"></i></p>
-    <div class="bnrSlide"></div>
-  </div>
-  <div class="bnr-fade">
-    <div class="banner-1">
-      <div class="container">
-        <p class="bnr-ttl">Isobar named a <br/>Leader by <br/>Gartner <br/></p>
+    <div class="row">
+      <div class="col">
+        <h3 class="home-ttl">About Dae-solutions</h3>
+        <p class="desc">Distribution partnerships involve one partner agreeing to cross-market or bundle another partner’s product of services into their own distribution channels to target the agreed custom base <br/> What is it? <br/> On-line chat is a feature that involves real-time texting over the web.</p>
       </div>
-      <img class="bnr-home" src="./img/banner_1.jpg"/>
-    </div>
-    <div class="banner-1">
-      <div class="container">
-        <p class="bnr-ttl">Isobar named a <br/>Leader by <br/>Gartner <br/></p>
-      </div>
-      <img class="bnr-home" src="./img/banner_2.jpg"/>
-    </div>
-    <div class="banner-1">
-      <div class="container">
-        <p class="bnr-ttl">Isobar named a <br/>Leader by <br/>Gartner <br/></p>
-      </div>
-      <img class="bnr-home" src="./img/banner_3.jpg"/>
     </div>
   </div>
 </div>
-<div class="container">
-  <div class="row">
-    <div class="col">
-      <h3 class="home-ttl">About Dae-solutions</h3>
-      <p class="desc">Distribution partnerships involve one partner agreeing to cross-market or bundle another partner’s product of services into their own distribution channels to target the agreed custom base <br/> What is it? <br/> On-line chat is a feature that involves real-time texting over the web.</p>
-    </div>
-  </div>
-</div>          
-</div>
-<div class="section" id="section1">
+<div id="services" class="section">
   <div class="container">
     <div class="row">
       <div class="col">
@@ -130,7 +130,7 @@
     </div>
   </div>
 </div>
-<div class="section" id="section2">
+<div id="work" class="section">
   <div class="container">
     <div class="row">
       <div class="col">
@@ -210,7 +210,7 @@
     </div>
   </div>
 </div>
-<div class="section" id="section3">
+<div id="partner" class="section">
   <div class="container">
     <div class="row">
       <div class="col">
@@ -386,7 +386,7 @@
     </div>
   </div>
 </div>
-<div class="section" id="section4">
+<div id="news" class="section">
   <div class="container">
     <div class="row">
       <div class="col">
@@ -455,7 +455,7 @@
     </div>  
   </div>
 </div>
-<div class="section" id="section5">
+<div id="team" class="section">
   <div class="container">
     <div class="row">
       <h2 class="pg-ttl">Our Team</h2>
@@ -495,7 +495,24 @@
   </div>
 </div>
 </div>
-<script type="text/javascript" src="./js-cmn/fullpage/fullpage.js"></script>
+
+<script type="text/javascript" src="js-cmn/pagescroll.js"></script>
+<script>
+ new PageScroll('#pagescroll', {
+        animDuration: 300, // 2 seconds
+        // easing: 'cubic-bezier(.17,.67,.83,.67)', //animation easing
+        controlColor: '#e9e9e9', // color of navigation arrows
+        nav: [
+        document.getElementById('home'),
+        document.getElementById('services'),
+        document.getElementById('work'),
+        document.getElementById('partner'),
+        document.getElementById('news'),
+        document.getElementById('team')
+    ] // array of links selectors
+  })
+</script>
+<<!-- script type="text/javascript" src="./js-cmn/fullpage/fullpage.js"></script>
 
 <script type="text/javascript">
   var myFullpage = new fullpage('#fullpage', {
@@ -509,12 +526,12 @@
     afterResponsive: function(isResponsive){
     }
   });
-</script>
+</script> -->
 
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-<script type="text/javascript" src="./css-cmn/slick-1.8.1/slick/slick.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script type="text/javascript" src="js-cmn/popper.min.js"></script>
+<script type="text/javascript" src="js-cmn/bootstrap.min.js"></script>
+<script type="text/javascript" src="js-cmn/slick.min.js"></script>
 <script type="text/javascript">
   $(document).ready(function(){
     $('.bnr-fade').slick({
@@ -530,15 +547,12 @@
       nextArrow: $('.next'),
     });
   });
-
-</script>
-<script type="text/javascript"> 
   $(document).ready(function(){
     $('.sliding-blk').slick({
       slidesToShow: 4,
       slidesToScroll: 1,
       infinite: false,
-      autoplay: true,
+      autoplay: false,
       autoplaySpeed: 2000,
       responsive: [
       {
@@ -570,6 +584,12 @@
   });
   });
 </script>
+<!-- <script type="text/javascript">
+  function closeNav() {
+    document.getElementById("menu").style.width = "0";
+    // document.getElementById("main").style.marginLeft = "0";
+  }
+</script> -->
  <!--  <script type="text/javascript">
     window.oncontextmenu = (e) => {
       e.preventDefault();

@@ -100,11 +100,8 @@
       text-decoration: none;
       transition: color 0.2s;
       font-weight: 100;
-      /*font-family: Trebuchet MS;*/
-      /*text-transform: uppercase;*/
       padding: 8px 0;
     }
-
     .menu ul li a:hover {
       color: #212529;
     }
