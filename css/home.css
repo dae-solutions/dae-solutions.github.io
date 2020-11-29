@@ -34,7 +34,11 @@ input {
 .bnr-fade:focus{
   outline-width: 0;
 }
-.banner-1, .banner-2, .banner-3{height: 640px; background-position: top right; background-size: cover;}
+.banner-1, .banner-2, .banner-3{
+  height: 60vh;
+  background-position: top right;
+  background-size: cover;
+}
 .banner-1{background-image: url("../img/banner_1.jpg");}
 .banner-2{background-image: url("../img/banner_2.jpg");}
 .banner-3{background-image: url("../img/banner_3.jpg");}
@@ -165,6 +169,20 @@ input {
   padding: .5rem 1.25rem;
   font-size: 1rem;
   color: #707070;
+}
+.team-ttl{
+  margin: 0;
+  padding-top: .5rem;
+  text-align: center;
+}
+.team-ico{
+  font-size: 2em;
+  padding: 0 .5rem;
+}
+.author{
+  font-size: .8rem;
+  color: #707070;
+  margin: 0;
 }
 @media only screen and (max-width: 768px) {
   .banner-1, .banner-2, .banner-3{

@@ -28,7 +28,10 @@
           <img class="tab-img" src="../img/work/work-1.jpg">
           <h3 class="card-ttl">Mekong Group Food</h3>
           <p class="card-desc">Một dự án lớn như thiết kế website giới thiệu tập đoàn lớn như Mekong Food Group sẽ được thực hiện như thế nào? Trên nguyên tắc thiết kế website giới thiệu . . . </p>
-          <a href="#" class="read-more">Read more<i class="fas fa-chevron-right"></i></a>
+          <div class="d-flex align-items-center">
+            <img class="rounded-circle mr-2" width="28px" height="28px" src="../img/work/work-1.jpg">
+            <p class="author">Nguyễn Hữu Phước</p>
+          </div>
         </div>
       </div>
       <div class="col-md-4 col-12">
@@ -36,7 +39,10 @@
           <img class="tab-img" src="../img/work/work-2.jpg">
           <h3 class="card-ttl">Mekong Group Food</h3>
           <p class="card-desc">Một dự án lớn như thiết kế website giới thiệu tập đoàn lớn như Mekong Food Group sẽ được thực hiện như thế nào? Trên nguyên tắc thiết kế website giới thiệu . . . </p>
-          <a href="#" class="read-more">Read more<i class="fas fa-chevron-right"></i></a>
+          <div class="d-flex align-items-center">
+            <img class="rounded-circle mr-2" width="28px" height="28px" src="../img/work/work-1.jpg">
+            <p class="author">Nguyễn Hữu Phước</p>
+          </div>
         </div>
       </div>
       <div class="col-md-4 col-12">
@@ -44,7 +50,10 @@
           <img class="tab-img" src="../img/work/work-3.jpg">
           <h3 class="card-ttl">Mekong Group Food</h3>
           <p class="card-desc">Một dự án lớn như thiết kế website giới thiệu tập đoàn lớn như Mekong Food Group sẽ được thực hiện như thế nào? Trên nguyên tắc thiết kế website giới thiệu . . . </p>
-          <a href="#" class="read-more">Read more<i class="fas fa-chevron-right"></i></a>
+          <div class="d-flex align-items-center">
+            <img class="rounded-circle mr-2" width="28px" height="28px" src="../img/work/work-1.jpg">
+            <p class="author">Nguyễn Hữu Phước</p>
+          </div>
         </div>
       </div>
     </div>
@@ -54,7 +63,10 @@
           <img class="tab-img" src="../img/work/work-5.jpg">
           <h3 class="card-ttl">Mekong Group Food</h3>
           <p class="card-desc">Một dự án lớn như thiết kế website giới thiệu tập đoàn lớn như Mekong Food Group sẽ được thực hiện như thế nào? Trên nguyên tắc thiết kế website giới thiệu . . . </p>
-          <a href="#" class="read-more">Read more<i class="fas fa-chevron-right"></i></a>
+          <div class="d-flex align-items-center">
+            <img class="rounded-circle mr-2" width="28px" height="28px" src="../img/work/work-1.jpg">
+            <p class="author">Nguyễn Hữu Phước</p>
+          </div>
         </div>
       </div>
       <div class="col-md-4 col-12">
@@ -62,7 +74,10 @@
           <img class="tab-img" src="../img/work/work-5.jpg">
           <h3 class="card-ttl">Mekong Group Food</h3>
           <p class="card-desc">Một dự án lớn như thiết kế website giới thiệu tập đoàn lớn như Mekong Food Group sẽ được thực hiện như thế nào? Trên nguyên tắc thiết kế website giới thiệu . . . </p>
-          <a href="#" class="read-more">Read more<i class="fas fa-chevron-right"></i></a>
+          <div class="d-flex align-items-center">
+            <img class="rounded-circle mr-2" width="28px" height="28px" src="../img/work/work-1.jpg">
+            <p class="author">Nguyễn Hữu Phước</p>
+          </div>
         </div>
       </div>
       <div class="col-md-4 col-12">
@@ -70,7 +85,10 @@
           <img class="tab-img" src="../img/work/work-6.jpg">
           <h3 class="card-ttl">Mekong Group Food</h3>
           <p class="card-desc">Một dự án lớn như thiết kế website giới thiệu tập đoàn lớn như Mekong Food Group sẽ được thực hiện như thế nào? Trên nguyên tắc thiết kế website giới thiệu . . . </p>
-          <a href="#" class="read-more">Read more<i class="fas fa-chevron-right"></i></a>
+          <div class="d-flex align-items-center">
+            <img class="rounded-circle mr-2" width="28px" height="28px" src="../img/work/work-1.jpg">
+            <p class="author">Nguyễn Hữu Phước</p>
+          </div>
         </div>
       </div>
     </div>
@@ -82,7 +100,10 @@
           <img class="tab-img" src="../img/work/work-1.jpg">
           <h3 class="card-ttl">Mekong Group Food</h3>
           <p class="card-desc">Một dự án lớn như thiết kế website giới thiệu tập đoàn lớn như Mekong Food Group sẽ được thực hiện như thế nào? Trên nguyên tắc thiết kế website giới thiệu . . . </p>
-          <a href="#" class="read-more">Read more<i class="fas fa-chevron-right"></i></a>
+          <div class="d-flex align-items-center">
+            <img class="rounded-circle mr-2" width="28px" height="28px" src="../img/work/work-1.jpg">
+            <p class="author">Nguyễn Hữu Phước</p>
+          </div>
         </div>
       </div>
       <div class="col-md-6 col-12">
@@ -90,7 +111,10 @@
           <img class="tab-img" src="../img/work/work-2.jpg">
           <h3 class="card-ttl">Mekong Group Food</h3>
           <p class="card-desc">Một dự án lớn như thiết kế website giới thiệu tập đoàn lớn như Mekong Food Group sẽ được thực hiện như thế nào? Trên nguyên tắc thiết kế website giới thiệu . . . </p>
-          <a href="#" class="read-more">Read more<i class="fas fa-chevron-right"></i></a>
+          <div class="d-flex align-items-center">
+            <img class="rounded-circle mr-2" width="28px" height="28px" src="../img/work/work-1.jpg">
+            <p class="author">Nguyễn Hữu Phước</p>
+          </div>
         </div>
       </div>
     </div>
@@ -100,7 +124,10 @@
           <img class="tab-img" src="../img/work/work-5.jpg">
           <h3 class="card-ttl">Mekong Group Food</h3>
           <p class="card-desc">Một dự án lớn như thiết kế website giới thiệu tập đoàn lớn như Mekong Food Group sẽ được thực hiện như thế nào? Trên nguyên tắc thiết kế website giới thiệu . . . </p>
-          <a href="#" class="read-more">Read more<i class="fas fa-chevron-right"></i></a>
+          <div class="d-flex align-items-center">
+            <img class="rounded-circle mr-2" width="28px" height="28px" src="../img/work/work-1.jpg">
+            <p class="author">Nguyễn Hữu Phước</p>
+          </div>
         </div>
       </div>
       <div class="col-md-4 col-12">
@@ -108,7 +135,10 @@
           <img class="tab-img" src="../img/work/work-5.jpg">
           <h3 class="card-ttl">Mekong Group Food</h3>
           <p class="card-desc">Một dự án lớn như thiết kế website giới thiệu tập đoàn lớn như Mekong Food Group sẽ được thực hiện như thế nào? Trên nguyên tắc thiết kế website giới thiệu . . . </p>
-          <a href="#" class="read-more">Read more<i class="fas fa-chevron-right"></i></a>
+          <div class="d-flex align-items-center">
+            <img class="rounded-circle mr-2" width="28px" height="28px" src="../img/work/work-1.jpg">
+            <p class="author">Nguyễn Hữu Phước</p>
+          </div>
         </div>
       </div>
       <div class="col-md-4 col-12">
@@ -116,30 +146,16 @@
           <img class="tab-img" src="../img/work/work-6.jpg">
           <h3 class="card-ttl">Mekong Group Food</h3>
           <p class="card-desc">Một dự án lớn như thiết kế website giới thiệu tập đoàn lớn như Mekong Food Group sẽ được thực hiện như thế nào? Trên nguyên tắc thiết kế website giới thiệu . . . </p>
-          <a href="#" class="read-more">Read more<i class="fas fa-chevron-right"></i></a>
+          <div class="d-flex align-items-center">
+            <img class="rounded-circle mr-2" width="28px" height="28px" src="../img/work/work-1.jpg">
+            <p class="author">Nguyễn Hữu Phước</p>
+          </div>
         </div>
       </div>
     </div>
   </div>
 
 
-  <script type="text/javascript" src="../js-cmn/fullpage/fullpage.js"></script>
-
-  <script type="text/javascript">
-    var myFullpage = new fullpage('#fullpage', {
-      anchors: ['Branding-guideline', 'Logo', 'Spacing', 'Brand-Ratio'],
-      sectionsColor: ['#fff'],
-      menu: '#hd',
-      navigation: false,
-      navigationPosition: 'left',
-      navigationTooltips: ['Home', 'Service', 'Work', 'Academy'],
-      responsiveWidth: 900,
-      afterResponsive: function(isResponsive){
-
-      }
-
-    });
-  </script>
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>

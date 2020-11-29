@@ -21,7 +21,14 @@
   <!-- private css-->
   <link rel="stylesheet" type="text/css" href="./css/home.css"/>
   <link rel='stylesheet' type='text/css' href='./css-cmn/pagescroll.css'>
-
+  <script>
+  document.getElementByClass("menu-item").onclick = function() {
+    closeMenu()
+  };
+  function closeMenu() {
+    $("#menuToggle").prop('checked', false);
+  }
+  </script>
 </head>
 <body>
   <header class="hd">
@@ -39,15 +46,15 @@
                 <label for="menuToggle"></label>
                 <div class="menuContent">
                   <ul class="container">
-                    <li><a href="/">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#work">Work</a></li>
-                    <li><a href="#partner">Partners</a></li>
-                    <li><a href="/academy.php" >Academy</a></li>
-                    <li><a href="/news.php">News</a></li>
-                    <li><a href="#">Ourteam</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a class="menu-item" onclick="closeMenu()" href="/">Home</a></li>
+                    <li><a class="menu-item" onclick="closeMenu()" href="#">About</a></li>
+                    <li><a class="menu-item" onclick="closeMenu()" href="/#services">Services</a></li>
+                    <li><a class="menu-item" onclick="closeMenu()" href="#work">Work</a></li>
+                    <li><a class="menu-item" onclick="closeMenu()" href="#partner">Partners</a></li>
+                    <li><a class="menu-item" onclick="closeMenu()" href="/academy.php" >Academy</a></li>
+                    <li><a class="menu-item" onclick="closeMenu()" href="/news.php">News</a></li>
+                    <li><a class="menu-item" onclick="closeMenu()" href="/team">Ourteam</a></li>
+                    <li><a class="menu-item" onclick="closeMenu()" href="#contact">Contact</a></li>
                   </ul>
                 </div>
               </div>
